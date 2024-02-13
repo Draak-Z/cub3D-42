@@ -1,20 +1,20 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   cub3d.h                                            :+:      :+:    :+:   */
+/*   cub3d_bonus.h                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: bmaudet <bmaudet@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/16 19:48:08 by bmaudet           #+#    #+#             */
-/*   Updated: 2021/05/03 15:03:27 by bmaudet          ###   ########.fr       */
+/*   Updated: 2021/05/04 22:34:12 by bmaudet          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef CUB3D_H
-# define CUB3D_H
+#ifndef CUB3D_BONUS_H
+# define CUB3D_BONUS_H
 
-# include "get_next_line.h"
-# include "minilibx-linux/mlx.h"
+# include "get_next_line_bonus.h"
+# include "../minilibx-linux/mlx.h"
 # include <math.h>
 # include <string.h>
 # include <stdio.h>
@@ -27,11 +27,16 @@
 
 # define K_A 97
 # define K_D 100
+# define K_Q 113
 # define K_S 115
 # define K_W 119
+# define K_Z 122
 # define K_AR_L 65361
 # define K_AR_R 65363
+# define K_AR_U 65362
+# define K_AR_D 65364
 # define K_ESC 65307
+# define K_SHIFT 65505
 # define BUFFER_SIZE 4096
 
 typedef struct		s_spritescoord

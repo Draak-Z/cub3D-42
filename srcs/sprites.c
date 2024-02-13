@@ -63,14 +63,14 @@ void	sprite_math(t_data *data, int i)
 			data->z.spritex + data->var.planex * data->z.spritey);
 	data->z.spritescreenx = (int)((data->rx / 2) * (1 + data->z.transformx
 				/ data->z.transformy));
-	data->z.spriteheight = fabs((int)(data->ry / (data->z.transformy)));
+	data->z.spriteheight = abs((int)(data->ry / (data->z.transformy)));
 	data->z.drawstarty = -data->z.spriteheight / 2 + data->ry / 2;
 	if (data->z.drawstarty < 0)
 		data->z.drawstarty = 0;
 	data->z.drawendy = data->z.spriteheight / 2 + data->ry / 2;
 	if (data->z.drawendy >= data->ry)
 		data->z.drawendy = data->ry - 1;
-	data->z.spritewidth = fabs((int)(data->ry / (data->z.transformy)));
+	data->z.spritewidth = abs((int)(data->ry / (data->z.transformy)));
 	data->z.drawstartx = -data->z.spritewidth / 2 + data->z.spritescreenx;
 	if (data->z.drawstartx < 0)
 		data->z.drawstartx = 0;

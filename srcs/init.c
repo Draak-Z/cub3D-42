@@ -1,16 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   init_bonus.c                                       :+:      :+:    :+:   */
+/*   init.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: bmaudet <bmaudet@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/20 17:45:44 by bmaudet           #+#    #+#             */
-/*   Updated: 2021/05/03 14:57:28 by bmaudet          ###   ########.fr       */
+/*   Updated: 2021/05/03 12:38:35 by bmaudet          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "cub3d_bonus.h"
+#include "cub3d.h"
 
 void	init_var(t_data *data)
 {
@@ -20,8 +20,8 @@ void	init_var(t_data *data)
 	data->var.diry = 0;
 	data->var.planex = 0;
 	data->var.planey = 0;
-	data->var.movespeed = 0.05;
-	data->var.rotspeed = 0.03;
+	data->var.movespeed = 0.015;
+	data->var.rotspeed = 0.01;
 	if (data->start == 'N')
 		data->var.dirx = -1;
 	if (data->start == 'S')

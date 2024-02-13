@@ -12,41 +12,41 @@
 
 NAME = cub3D
 
-SRCS = 	raycasting.c\
-		errors.c\
-		ft_lst.c\
-		get_next_line_utils.c\
-		get_next_line.c\
-		init.c\
-		rfc.c\
-		map_parser.c\
-		parsing_utils.c\
-		save.c\
-		texture.c\
-		map_walls.c\
-		img_drawing.c\
-		keys.c\
-		wasd.c\
-		sprites.c\
-		main.c\
+SRCS = 	srcs/raycasting.c\
+		srcs/errors.c\
+		srcs/ft_lst.c\
+		srcs/get_next_line_utils.c\
+		srcs/get_next_line.c\
+		srcs/init.c\
+		srcs/rfc.c\
+		srcs/map_parser.c\
+		srcs/parsing_utils.c\
+		srcs/save.c\
+		srcs/texture.c\
+		srcs/map_walls.c\
+		srcs/img_drawing.c\
+		srcs/keys.c\
+		srcs/wasd.c\
+		srcs/sprites.c\
+		srcs/main.c\
 
-SRCSBONUS = raycasting_bonus.c\
-			errors_bonus.c\
-			ft_lst_bonus.c\
-			get_next_line_utils_bonus.c\
-			get_next_line_bonus.c\
-			init_bonus.c\
-			rfc_bonus.c\
-			map_parser_bonus.c\
-			parsing_utils_bonus.c\
-			save_bonus.c\
-			texture_bonus.c\
-			map_walls_bonus.c\
-			img_drawing_bonus.c\
-			keys_bonus.c\
-			wasd_bonus.c\
-			sprites_bonus.c\
-			main_bonus.c\
+SRCSBONUS = bonus/raycasting_bonus.c\
+			bonus/errors_bonus.c\
+			bonus/ft_lst_bonus.c\
+			bonus/get_next_line_utils_bonus.c\
+			bonus/get_next_line_bonus.c\
+			bonus/init_bonus.c\
+			bonus/rfc_bonus.c\
+			bonus/map_parser_bonus.c\
+			bonus/parsing_utils_bonus.c\
+			bonus/save_bonus.c\
+			bonus/texture_bonus.c\
+			bonus/map_walls_bonus.c\
+			bonus/img_drawing_bonus.c\
+			bonus/keys_bonus.c\
+			bonus/wasd_bonus.c\
+			bonus/sprites_bonus.c\
+			bonus/main_bonus.c\
 
 OBJS = ${SRCS:.c=.o}
 

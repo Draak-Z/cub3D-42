@@ -48,10 +48,10 @@ void	l(t_data *data)
 
 int		key_press(t_data *data)
 {
-	if (data->var.movespeed == 0.1)
-		data->var.movespeed = 0.05;
+	if (data->var.movespeed == 0.03)
+		data->var.movespeed = 0.015;
 	if (data->var.tab[K_SHIFT % 1000])
-		data->var.movespeed = 0.1;
+		data->var.movespeed = 0.03;
 	if (data->var.tab[K_W % 1000])
 		w(data);
 	if (data->var.tab[K_S % 1000])
